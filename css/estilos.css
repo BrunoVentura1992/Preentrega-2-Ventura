@@ -1,0 +1,22 @@
+/*Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    height: 15vh;
+}
+
+/*Estilos Barra de Navegacion*/
+
+.navbar {
+    height: 100%;
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 400;
+}

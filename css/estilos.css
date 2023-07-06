@@ -56,6 +56,76 @@ header {
     font-size: 45px;
 }
 
+/*Estilos Recetas*/
+
+.main-recetas {
+    display: flex;
+    height: 75vh;
+    justify-content: center;
+    background-color: rgb(110, 155, 141);
+}
+
+.container-recetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta-recetas {
+    flex: 1 0 calc(25% - 40px);
+    width: 20%;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(217, 221, 203);
+}
+
+.img-tarjetas {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.tarjeta-principal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h2-tarjetas {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 400;
+}
+
+.p-tarjetas {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.ver-mas-recetas {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #e0e2d6;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid rgb(182, 182, 190);
+    text-align: center;
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
 
 
 

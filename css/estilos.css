@@ -20,3 +20,36 @@ header {
     font-family: 'M PLUS 2', sans-serif;
     font-weight: 400;
 }
+
+/*Estilos Footer*/
+footer {
+    height: 10vh;
+    background-color: rgb(179, 165, 149);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 10px;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+    flex: 1;
+    margin: 0;
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 400;
+}

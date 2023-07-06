@@ -56,6 +56,36 @@ header {
     font-size: 45px;
 }
 
+@media (max-width: 600px) {
+    #main-index {
+    height: auto;
+    padding: 20px;
+    }
+
+    #h1-index {
+    font-size: 40px;
+    text-align: center;
+    }
+
+    #h2-index {
+    font-size: 30px;
+    text-align: center;
+    }
+
+    #seccion-index {
+    text-align: center;
+    }
+
+    .d-flex {
+    flex-direction: column;
+    gap: 7px;
+    }
+
+    .btn {
+    width: 100%;
+    }
+}
+
 /*Estilos Recetas*/
 
 .main-recetas {
@@ -124,6 +154,38 @@ header {
     font-family: 'M PLUS 2', sans-serif;
     font-weight: 400;
     font-size: 15px;
+}
+
+@media (max-width: 767px) {
+    .container-recetas {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .tarjeta-recetas {
+        flex: 1 0 calc(90% - 40px);
+    }
+
+    .main-recetas {
+        height: auto;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .container-recetas {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .tarjeta-recetas {
+        flex: 1 0 calc(45% - 40px);
+        align-self: stretch;
+    }
+
+    .main-recetas {
+        height: auto;
+    }
 }
 
 /*Estilos Contacto*/
